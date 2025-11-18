@@ -186,7 +186,7 @@ if (dbContext is not null)
 
 
 
-## 📦 Dependencies & Compatibility
+## Dependencies & Compatibility
 
 * **.NET 9.0+**
 * **Microsoft.EntityFrameworkCore 9.0+**
@@ -204,4 +204,3 @@ if (dbContext is not null)
 
 * **License**: MIT License
 * **Issues**: [GitHub Issues](https://github.com/ionutneagos/efcore-automaticmigrations-PostgreSQL/issues)
-* **Documentation**: [GitHub Repository](https://github.com/ionutneagos/efcore-automaticmigrations-PostgreSQL)
