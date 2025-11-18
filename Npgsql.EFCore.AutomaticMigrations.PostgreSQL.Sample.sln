@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npgsql.EFCore.AutomaticMigrations.PostgreSQL.Sample", "Npgsql.EFCore.AutomaticMigrations.PostgreSQL.Sample.csproj", "{7DC378A3-64C6-9D74-B3B4-AC2896E9E01F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC378A3-64C6-9D74-B3B4-AC2896E9E01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC378A3-64C6-9D74-B3B4-AC2896E9E01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC378A3-64C6-9D74-B3B4-AC2896E9E01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC378A3-64C6-9D74-B3B4-AC2896E9E01F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EFBFA8E-E88E-4DCA-91DB-9230B03C2DAE}
+	EndGlobalSection
+EndGlobal

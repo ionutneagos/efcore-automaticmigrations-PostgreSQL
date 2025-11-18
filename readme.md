@@ -1,4 +1,5 @@
-﻿# EF Core Automatic Migrations for PostgreSQL
+﻿
+# EF Core Automatic Migrations for PostgreSQL
 
 ![.NET 9.0](https://img.shields.io/badge/.NET-9.0-blue) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-supported-green) ![EF Core 9.0](https://img.shields.io/badge/EF%20Core-9.0-purple)
 
@@ -6,11 +7,12 @@
 
 This package is specifically optimized for PostgreSQL with support for schemas, bytea storage, UUID extensions, and PostgreSQL-specific data types.
 
+# About
+Contains instructions to use [PostgreSQL.EFCore.AutomaticMigrations.Npgsql](https://www.nuget.org/packages/PostgreSQL.EFCore.AutomaticMigrations.Npgsql/) nuget package for Automatic Migrations with Entity Framework Core PostgreSQL Databases.
+
 ## Quick Start
 
-To see this package in action, you can use the minimal api sample project provided in the repository. The sample project demonstrates how to set up and use EFCore.AutomaticMigrations in a real-world scenario. Follow these steps to get started:
-To see this package in action, you can use the minimal api sample project provided in the repository. The sample project demonstrates how to set up and use EFCore.AutomaticMigrations in a real-world scenario. Follow these steps to get started:
-
+To see this package in action, you can use the minimal api sample project provided in the repository. The sample project demonstrates how to set up and use PostgreSQL.EFCore.AutomaticMigrations.Npgsql in a real-world scenario. Follow these steps to get started:
 1. **Clone the repository:**
 
     ```sh
@@ -19,7 +21,7 @@ To see this package in action, you can use the minimal api sample project provid
 
 2. **Open the solution:**
 
-    Open the solution file `Npgsql.EFCore.AutomaticMigrations.PostgreSQL.sln` in your preferred IDE.
+    Open the solution file `Npgsql.EFCore.AutomaticMigrations.PostgreSQL.Sample.sln` in your preferred IDE.
 
 3. **Update the connection string:**
 
@@ -27,7 +29,7 @@ To see this package in action, you can use the minimal api sample project provid
 
 4. **Run the application:**
 
-    Start the application to see `Npgsql.EFCore.AutomaticMigrations.PostgreSQL` in action.
+    Start the application to see `PostgreSQL.EFCore.AutomaticMigrations.Npgsql` in action.
 
 The sample project includes examples of how to configure and use the `DbMigrationsOptions` object, apply migrations, reset the database schema, and view applied migrations. This should help you understand how to integrate EFCore.AutomaticMigrations into your own projects.
 
